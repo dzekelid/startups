@@ -33,7 +33,7 @@ apis:
   tags: Startups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/tags-tag-id-jobs-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/tags-tag-id-parents-get.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
