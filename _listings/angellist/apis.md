@@ -33,7 +33,7 @@ apis:
   tags: Startups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/like-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/likes-get.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
