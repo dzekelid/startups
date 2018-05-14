@@ -45,17 +45,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/users-user-id-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/users-user-id-get-postman.md
-- name: AngelList Get Users Following
-  description: Get Users Following
+- name: AngelList Get User Following IDs
+  description: Get User Following IDs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Startups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/users-user-id-following-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/users-user-id-following-ids-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/users-user-id-following-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/users-user-id-following-ids-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
