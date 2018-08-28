@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Startups",
+	"description": "This is a repository of startups APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/startups.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://startups.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AngelList",
+			"x-api-slug": "angellist",
+			"description": "AngelList is where the world meets startups. Find a great startup job, invest in a startup, or raise money",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg",
+			"humanURL": "http://angel.co",
+			"baseURL": "https://api.angel.co//1/",
+			"tags": "Startups",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Product Hunt",
+			"x-api-slug": "product-hunt",
+			"description": "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyones talking about.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-product-hunt.jpg",
+			"humanURL": "http://producthunt.com",
+			"baseURL": "https://api.producthunt.com//v1",
+			"tags": "Startups",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/product-hunt/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Startups",
+	"include": [
+		{
+			"name": "AngelList",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/angellist/apis.yaml"
+		},
+		{
+			"name": "Product Hunt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/startups/master/_listings/product-hunt/apis.yaml"
+		}
+	]
+}
